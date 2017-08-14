@@ -16,9 +16,10 @@ Mybb Don't Go eklentisi ile dontgo.js 'yi Mybb forumlara uyarlamak amacıyla yaz
 Dosyaları Ftp hesabınıza atıp eklentiyi aktifleştirin. Daha sonra ayarları yaparak eklentiyi kullanabilirsiniz.
 
 ### Teşekkürler
-
-[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)
-[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)
+<ul>
+<li>[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)</li>
+<li>[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)</li>
+</ul>
 
 ### Blog Yazısı
 
@@ -40,8 +41,10 @@ Disable Ftp accounts and activate the plugin. You can then use the plug-in by ma
 
 ### Thanks
 
-[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)
-[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)
+<ul>
+<li>[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)</li>
+<li>[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)</li>
+</ul>
 
 ### Blog Post
 
