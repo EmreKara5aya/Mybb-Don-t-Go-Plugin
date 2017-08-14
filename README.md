@@ -17,8 +17,8 @@ Dosyaları Ftp hesabınıza atıp eklentiyi aktifleştirin. Daha sonra ayarları
 
 ### Teşekkürler
 <ul>
-<li>[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)</li>
-<li>[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)</li>
+<li><a href="https://github.com/tiaanduplessis/dont-go/">Don't Go Js</a></li>
+<li><a href="https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746">Wmaraci</a></li>
 </ul>
 
 ### Blog Yazısı
@@ -42,8 +42,8 @@ Disable Ftp accounts and activate the plugin. You can then use the plug-in by ma
 ### Thanks
 
 <ul>
-<li>[Don't Go Js](https://github.com/tiaanduplessis/dont-go/)</li>
-<li>[Wmaraci](https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746)</li>
+<li><a href="https://github.com/tiaanduplessis/dont-go/">Don't Go Js</a></li>
+<li><a href="https://wmaraci.com/blog/sitenizi-yeni-sekmede-acip-uzaklasan-ziyaretcileri-geri-cekin-don-t-go-746">Wmaraci</a></li>
 </ul>
 
 ### Blog Post
