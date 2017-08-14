@@ -10,6 +10,7 @@ $l['aygrtitle'] = "Mybb Don\'t Go Ayarları";
 $l['aygrdes'] = "Mybb Don\'t Go Ayarlarını Yapabilirsiniz.";
 $l['dontgomesajtit'] = "Yeni Titlenizi Girin.";
 $l['dontgomesajdes'] = "Belirli süre geçince title otomatik değişecek ve girdiğiniz title gözükecektir.";
+$l['dontgomesaj'] = "Geri Dön Tülay :).";
 $l['dontgofavtit'] = "Yeni Faviconu Girin";
 $l['dontgofavdes'] = "Belirli süre geçince title ile favicon da değişecektir.Lütfen faviconun sadece resim yolunu belirtin.Örnek images/favicon.ico Kodlarda bu siteadresi/images/favicon.ico olarak gözücektir.";
 $l['dontgozatit'] = "Zamanı Belirleyin";
