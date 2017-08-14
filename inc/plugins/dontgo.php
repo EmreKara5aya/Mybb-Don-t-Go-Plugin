@@ -43,7 +43,7 @@ function dontgo_activate()
         'title'        => $lang->dontgomesajtit,
         'description'  => $lang->dontgomesajdes,
         'optionscode'  => 'text',
-        'value'        => 'Geri Dön Tülay :)',
+        'value'        => $lang->dontgomesaj,
         'disporder'    => '1',
         'gid'          => intval( $ayar_grup_id )
     );
