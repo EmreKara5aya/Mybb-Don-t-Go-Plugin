@@ -37,7 +37,7 @@ Mybb is written with the Do not Go plugin and dontgo.js to adapt to Mybb forums.
 
 ### Setup
 
-Disable Ftp accounts and activate the plugin. You can then use the plug-in by making settings.
+Assign your plugin files to your Ftp account. Then activate the plug-in. You can use the plug-in after you have made the settings.
 
 ### Thanks
 
