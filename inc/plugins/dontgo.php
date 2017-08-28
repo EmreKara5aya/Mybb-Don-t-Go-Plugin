@@ -37,18 +37,17 @@ function dontgo_activate()
     );
     $db->insert_query('settinggroups', $ayar_group);
     $ayar_grup_id = $db->insert_id();
-
-	$ayar1 = array(
+    $ayar = [
+    [
         'name'         => 'dontgomesaj',
         'title'        => $lang->dontgomesajtit,
         'description'  => $lang->dontgomesajdes,
         'optionscode'  => 'text',
-        'value'        => $lang->dontgomesaj,
+        'value'        => 'Geri Dön Tülay :)',
         'disporder'    => '1',
         'gid'          => intval( $ayar_grup_id )
-    );
-    $db->insert_query("settings", $ayar1);
-    	$ayar2 = array(
+    ],
+    [
         'name'         => 'dontgofav',
         'title'        => $lang->dontgofavtit,
         'description'  => $lang->dontgofavdes,
@@ -56,9 +55,8 @@ function dontgo_activate()
         'value'        => 'images/favicon.ico',
         'disporder'    => '2',
         'gid'          => intval( $ayar_grup_id )
-    );
-    $db->insert_query("settings", $ayar2);
-        	$ayar3 = array(
+    ],
+    [
         'name'         => 'dontgoza',
         'title'        => $lang->dontgozatit,
         'description'  => $lang->dontgozades,
@@ -66,18 +64,21 @@ function dontgo_activate()
         'value'        => '5',
         'disporder'    => '3',
         'gid'          => intval( $ayar_grup_id )
-    );
-    $db->insert_query("settings", $ayar3);
+    ]
+    ];
+    $db->insert_query_multiple('settings', $ayar);
 require_once MYBB_ROOT."/inc/adminfunctions_templates.php";
     find_replace_templatesets("headerinclude", "#".preg_quote("{\$stylesheets}")."#i", "{\$stylesheets}\n{\$dontgo}");
 }
 function dontgo_deactivate()
 {
-	global $mybb, $db;
-	$db->query("DELETE FROM ".TABLE_PREFIX."settinggroups WHERE name='dontgo_ayarlari'");
-	$db->query("DELETE FROM ".TABLE_PREFIX."settings WHERE name='dontgomesaj'");
-	$db->query("DELETE FROM ".TABLE_PREFIX."settings WHERE name='dontgofav'");
-	$db->query("DELETE FROM ".TABLE_PREFIX."settings WHERE name='dontgoza'");
+	global $db;
+    $db->delete_query("settinggroups", "name='dontgo_ayarlari'");
+    $db->delete_query("settings", "name IN(
+        'dontgomesaj',
+        'dontgofav',
+        'dontgoza'
+    )");
 	rebuild_settings();
 	     require_once MYBB_ROOT."/inc/adminfunctions_templates.php";
     find_replace_templatesets("headerinclude", "#".preg_quote("{\$dontgo}")."#i", "", 0);
