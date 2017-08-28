@@ -20,7 +20,7 @@ function dontgo_info()
 	'website' => "https://www.emrekarakaya.com.tr" ,
 	'author' => "Emre Karakaya" ,
 	'authorsite' => "https://www.emrekarakaya.com.tr" ,
-	'version' => "1.0" ,
+	'version' => "1.2" ,
 	'guid' => "" , 
 	'compatibility' => "18*",
 );
